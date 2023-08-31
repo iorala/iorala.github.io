@@ -1,1 +1,66 @@
-Hello World
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekte von Andreas La Roi</title>
+    <!-- Bootstrap 5.3.1 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            padding: 20px;
+            background-color: #CCE4EA;
+        }
+
+        #portrait {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .project-card {
+            background-color: #66AFC0;
+        }
+
+        .project-section {
+            margin-top: 50px; /* Größerer Abstand zum Titel */
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Linke Spalte -->
+            <div class="col-md-3">
+                <img src="andreas.jpg" alt="Portrait von Andreas La Roi" id="portrait">
+                <h3>Andreas La Roi</h3>
+                <a href="https://github.com/iorala" target="_blank" class="btn btn-link">GitHub Profil</a>
+            </div>
+
+            <!-- Rechte Spalte -->
+            <div class="col-md-9">
+                <h1>Ausgewählte Projekte</h1>
+                <div class="row project-section">
+                    <!-- Projekt Card -->
+                    <div class="col-md-4">
+                        <div class="card project-card">
+                            <div class="card-body">
+                                <h5 class="card-title">Projekttitel</h5>
+                                <p class="card-text">Kurze Beschreibung des Projekts...</p>
+                                <a href="LINK_ZUR_GITHUB_SEITE" class="btn btn-light">Auf GitHub ansehen</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Hier können Sie weitere Projekt Cards einfügen -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5.3.1 JS und Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
